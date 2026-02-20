@@ -1,6 +1,17 @@
 package Jobsheet2;
 
 public class Mahasiswa {
+    //Konstruktor
+    public Mahasiswa(){
+    }
+
+    public Mahasiswa(String nm,String nim,Double ipk,String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
+
     
     String nama;
     String nim;
